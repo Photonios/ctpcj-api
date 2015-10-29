@@ -9,6 +9,17 @@ all the data from their website, making it as a real time and up-to-date
 as possible. It's slow at the moment as every request requires one or
 more HTTP requests to the CTPCJ website and to process it. However, the plan is to add some caching to make sure 99% of the requests don't go through to the CTPCJ websites. They only update their websites a couple of times a month.
 
+### Running
+Before you can actually run the web server you first have to set up the project:
+
+    python setup.py develop
+
+After that you can start the web server:
+
+    python -m ctpcj
+
+Which by default listens on port `2015`.
+
 ## Work in progress
 This is a work in progress, but basic stuff already works. Features now:
 
