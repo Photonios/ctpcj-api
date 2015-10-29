@@ -3,6 +3,8 @@ CTPCJ (Public Transport Company S.A Cluj-Napoca) is Cluj-Napoca's public transpo
 
 This Python packages provides both a Python library as well as a REST web server that give access to the schedules and a lot of information from the CTPCJ website programmatically.
 
+Written in Python 3.4.
+
 ## How does it work?
 As said, CTPCJ does not provide an API. This package directly scrapes
 all the data from their website, making it as a real time and up-to-date
